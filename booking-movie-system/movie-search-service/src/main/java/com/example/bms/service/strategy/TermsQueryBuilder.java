@@ -1,4 +1,4 @@
-package genie.cases.search.strategy;
+package com.example.bms.service.strategy;
 
 import org.elasticsearch.index.query.BoolQueryBuilder;
 import org.elasticsearch.index.query.QueryBuilders;
