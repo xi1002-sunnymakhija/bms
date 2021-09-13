@@ -8,7 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component("aggregationSourceBuilder")
-public class AggregationSourceBuilder implements SourceBuilder {
+public class AggregationSourceBuilder implements com.ybl.genie.elastic.client.builder.source.SourceBuilder {
 
     @Autowired
     private SearchAggregationBuilder searchAggregationBuilder;

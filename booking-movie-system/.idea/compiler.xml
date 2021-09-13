@@ -12,6 +12,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="com.example.booking-movie-system" target="1.8" />
       <module name="elastic-client" target="1.8" />
       <module name="elastic-client.main" target="1.8" />
       <module name="elastic-client.test" target="1.8" />

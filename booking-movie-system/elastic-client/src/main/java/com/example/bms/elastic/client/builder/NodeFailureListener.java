@@ -1,4 +1,4 @@
-package com.ybl.genie.elastic.client.builder;
+package com.example.bms.elastic.client.builder;
 
 import com.ybl.genie.elastic.client.ElasticSearchConfiguration;
 import org.apache.http.HttpHost;
