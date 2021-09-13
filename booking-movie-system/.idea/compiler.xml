@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.20/18bcea7d5df4d49227b4a0743a536208ce4825bb/lombok-1.18.20.jar" />
+        </processorPath>
+        <module name="movie-search-service.main" />
+        <module name="movie-search-service.test" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="elastic-client" target="1.8" />
+      <module name="elastic-client.main" target="1.8" />
+      <module name="elastic-client.test" target="1.8" />
+      <module name="movie-search-service.booking-movie-system" target="1.8" />
+      <module name="movie-search-service.booking-movie-system.main" target="1.8" />
+      <module name="movie-search-service.booking-movie-system.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

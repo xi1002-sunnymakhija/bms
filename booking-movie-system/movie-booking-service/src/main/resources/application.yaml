@@ -1,0 +1,17 @@
+spring:
+  profiles: prod
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+    hikari:
+      minimum-idle: 5
+      maximum-pool-size: 30
+      idle-timeout: 300000
+      connection-test-query: SELECT 1
+    jpa:
+      generate-ddl: true
+      hibernate:
+        ddl-auto: create

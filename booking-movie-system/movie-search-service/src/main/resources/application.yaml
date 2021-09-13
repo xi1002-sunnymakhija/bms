@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: prod
+---
+spring:
+  profiles: prod
+elasticHost: 192.168.7.52
+elasticPort: 9200
+connectionTimeout: 5000
+socketTimeout: 60000
+retryTimeout: 40000
+elasticMaxResponseCount: 10000
+field-query-mapping: '{"theaterIDFilter":{"elasticFieldName":"theater_id","queryBuilder":"TermQueryBuilder"},"NameFilter":{"elasticFieldName":"movie_name,actor_name,director_name","queryBuilder":"TermQueryBuilder"}}'
+userName:
+password:
